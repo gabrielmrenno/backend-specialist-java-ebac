@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/mod7/mod7.iml" filepath="$PROJECT_DIR$/mod7/mod7.iml" />
       <module fileurl="file://$PROJECT_DIR$/mod8/mod8.iml" filepath="$PROJECT_DIR$/mod8/mod8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mod9/mod9.iml" filepath="$PROJECT_DIR$/mod9/mod9.iml" />
       <module fileurl="file://$PROJECT_DIR$/mod8/tarefa-calculo-media/tarefa_calculo-media.iml" filepath="$PROJECT_DIR$/mod8/tarefa-calculo-media/tarefa_calculo-media.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mod9/tarefa_wrapper/tarefa_wrapper.iml" filepath="$PROJECT_DIR$/mod9/tarefa_wrapper/tarefa_wrapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/tarefas-ebac-gabriel-renno.iml" filepath="$PROJECT_DIR$/tarefas-ebac-gabriel-renno.iml" />
       <module fileurl="file://$PROJECT_DIR$/mod7/tarefas_classes/tarefas_classes.iml" filepath="$PROJECT_DIR$/mod7/tarefas_classes/tarefas_classes.iml" />
     </modules>
