@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/mod17/GenericsTask/GenericsTask.iml" filepath="$PROJECT_DIR$/mod17/GenericsTask/GenericsTask.iml" />
       <module fileurl="file://$PROJECT_DIR$/mod14/Projeto1/Projeto1.iml" filepath="$PROJECT_DIR$/mod14/Projeto1/Projeto1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mod19/ReflectionTask/ReflectionTask.iml" filepath="$PROJECT_DIR$/mod19/ReflectionTask/ReflectionTask.iml" />
       <module fileurl="file://$PROJECT_DIR$/mod12/colecoes_parte2/colecoes_parte2.iml" filepath="$PROJECT_DIR$/mod12/colecoes_parte2/colecoes_parte2.iml" />
       <module fileurl="file://$PROJECT_DIR$/mod10/mod10.iml" filepath="$PROJECT_DIR$/mod10/mod10.iml" />
       <module fileurl="file://$PROJECT_DIR$/mod11/mod11.iml" filepath="$PROJECT_DIR$/mod11/mod11.iml" />
