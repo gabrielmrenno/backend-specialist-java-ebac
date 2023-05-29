@@ -2,10 +2,6 @@ package DAO;
 
 import domain.Customer;
 
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
-
 public class CustomerMapDAO implements ICustomerDAO {
 
     private Map<Long, Customer> map;
