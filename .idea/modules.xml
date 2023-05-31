@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/mod17/GenericsTask/GenericsTask.iml" filepath="$PROJECT_DIR$/mod17/GenericsTask/GenericsTask.iml" />
       <module fileurl="file://$PROJECT_DIR$/mod14/Projeto1/Projeto1.iml" filepath="$PROJECT_DIR$/mod14/Projeto1/Projeto1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mod19/ReflectionTask/ReflectionTask.iml" filepath="$PROJECT_DIR$/mod19/ReflectionTask/ReflectionTask.iml" />
       <module fileurl="file://$PROJECT_DIR$/mod12/colecoes_parte2/colecoes_parte2.iml" filepath="$PROJECT_DIR$/mod12/colecoes_parte2/colecoes_parte2.iml" />
       <module fileurl="file://$PROJECT_DIR$/mod10/mod10.iml" filepath="$PROJECT_DIR$/mod10/mod10.iml" />
       <module fileurl="file://$PROJECT_DIR$/mod11/mod11.iml" filepath="$PROJECT_DIR$/mod11/mod11.iml" />
@@ -12,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/mod15/mod15.iml" filepath="$PROJECT_DIR$/mod15/mod15.iml" />
       <module fileurl="file://$PROJECT_DIR$/mod17/mod17.iml" filepath="$PROJECT_DIR$/mod17/mod17.iml" />
       <module fileurl="file://$PROJECT_DIR$/mod18/mod18.iml" filepath="$PROJECT_DIR$/mod18/mod18.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mod19/mod19.iml" filepath="$PROJECT_DIR$/mod19/mod19.iml" />
       <module fileurl="file://$PROJECT_DIR$/mod7/mod7.iml" filepath="$PROJECT_DIR$/mod7/mod7.iml" />
       <module fileurl="file://$PROJECT_DIR$/mod8/mod8.iml" filepath="$PROJECT_DIR$/mod8/mod8.iml" />
       <module fileurl="file://$PROJECT_DIR$/mod9/mod9.iml" filepath="$PROJECT_DIR$/mod9/mod9.iml" />
