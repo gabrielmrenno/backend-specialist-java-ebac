@@ -14,6 +14,7 @@ public class CustomerDAOTest {
     @BeforeEach
     public void init() {
         customer = new Customer(
+                null,
                 "Gabriel",
                 12312312312L,
                 119999999L,

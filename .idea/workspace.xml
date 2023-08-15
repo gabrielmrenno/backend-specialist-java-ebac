@@ -5,19 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43ba039d-12f0-4e84-9af1-fba8349b0339" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod25/mod25.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod25/src/main/java/br/com/grenno/dao/CustomerDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod25/src/main/java/br/com/grenno/dao/ICustomerDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod25/src/main/java/br/com/grenno/domain/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod25/src/main/java/br/com/grenno/services/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod25/src/main/java/br/com/grenno/services/ICustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod25/src/test/java/br/com/grenno/CustomerDAOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod25/src/test/java/br/com/grenno/CustomerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod25/src/test/java/br/com/grenno/dao/CustomerDAOMock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod25/src/main/java/br/com/grenno/dao/generic/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod25/src/main/java/br/com/grenno/dao/generic/GenericDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod25/src/main/java/br/com/grenno/dao/generic/IGenericDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod25/src/main/java/br/com/grenno/dao/generic/SingletonMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod25/mod25.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mod25/mod25.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod25/src/main/java/br/com/grenno/dao/CustomerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mod25/src/main/java/br/com/grenno/dao/CustomerDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod25/src/main/java/br/com/grenno/dao/ICustomerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mod25/src/main/java/br/com/grenno/dao/ICustomerDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod25/src/main/java/br/com/grenno/domain/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/mod25/src/main/java/br/com/grenno/domain/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod25/src/main/java/br/com/grenno/services/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mod25/src/main/java/br/com/grenno/services/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod25/src/main/java/br/com/grenno/services/ICustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod25/src/test/java/br/com/grenno/CustomerDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mod25/src/test/java/br/com/grenno/CustomerDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod25/src/test/java/br/com/grenno/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mod25/src/test/java/br/com/grenno/CustomerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod25/src/test/java/br/com/grenno/dao/CustomerDAOMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/mod25/src/test/java/br/com/grenno/dao/CustomerDAOMock.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>

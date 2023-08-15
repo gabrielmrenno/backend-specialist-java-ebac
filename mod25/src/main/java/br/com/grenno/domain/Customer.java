@@ -1,6 +1,10 @@
 package main.java.br.com.grenno.domain;
 
-public class Customer {
+import main.java.br.com.grenno.dao.generic.Entity;
+
+import java.util.UUID;
+
+public class Customer extends Entity {
     private String name;
     private Long doc;
     private Long phone;
@@ -9,11 +13,8 @@ public class Customer {
     private String city;
     private String state;
 
-    public Customer() {
-
-    }
-
-    public Customer(String name, Long doc, Long phone, String address, Integer addressNumber, String city, String state) {
+    public Customer(UUID id, String name, Long doc, Long phone, String address, Integer addressNumber, String city, String state) {
+        super(id);
         this.name = name;
         this.doc = doc;
         this.phone = phone;
