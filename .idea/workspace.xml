@@ -1,25 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="4" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43ba039d-12f0-4e84-9af1-fba8349b0339" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mod22/mod22.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod23e24/mod23e24.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod23e24/src/br/com/grenno/dao/ContractDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod23e24/src/br/com/grenno/dao/CustomerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod23e24/src/br/com/grenno/dao/IContractDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod23e24/src/br/com/grenno/dao/ICustomerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod23e24/src/br/com/grenno/dao/mocks/ContractDaoMock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod23e24/src/br/com/grenno/dao/mocks/CustomerDaoMock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod29/mod29.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod29/src/main/java/br/com/grenno/dao/generic/jdbc/ConnectionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod29/src/main/java/br/com/grenno/dao/generic/jdbc/dao/CustomerDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod29/src/main/java/br/com/grenno/dao/generic/jdbc/dao/ProductDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod29/src/main/java/br/com/grenno/dao/generic/jdbc/dao/interfaces/IGenericDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod29/src/main/java/br/com/grenno/domain/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod29/src/main/java/br/com/grenno/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod29/src/test/java/br/com/grenno/CustomerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod29/src/test/java/br/com/grenno/ProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/JUnit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod25/mod25.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mod25/mod25.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/htmlReport" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -32,31 +43,36 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2PH7V6RNotfriCmwl8UPgz87U5u" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "/home/gabriel/Documents/JavaCodes/tarefas-ebac-gabriel-renno/mod25/src",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/solver/IdeaProjects/erp-sales&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/solver/IdeaProjects/backend-specialist-java-ebac/mod29/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="test.java.br.com.grenno.dao" />
@@ -71,11 +87,31 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test.java.br.com.grenno" />
+      <recent name="main.java.br.com.grenno.domain" />
+      <recent name="main.java.br.com.grenno.dao.generic.jdbc.dao" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.ProductTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="mod22" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mod29" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.br.com.grenno.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.br.com.grenno" />
+      <option name="MAIN_CLASS_NAME" value="test.java.br.com.grenno.CustomerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,8 +131,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerTest.deleteCustomer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mod25" />
+    <configuration name="CustomerTest.testRegister" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mod29" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.java.br.com.grenno.*" />
@@ -105,14 +141,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="test.java.br.com.grenno" />
       <option name="MAIN_CLASS_NAME" value="test.java.br.com.grenno.CustomerTest" />
-      <option name="METHOD_NAME" value="deleteCustomer" />
+      <option name="METHOD_NAME" value="testRegister" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerTest.saveCustomer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mod25" />
+    <configuration name="ProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mod29" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.java.br.com.grenno.*" />
@@ -120,36 +156,19 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.java.br.com.grenno" />
-      <option name="MAIN_CLASS_NAME" value="test.java.br.com.grenno.CustomerTest" />
-      <option name="METHOD_NAME" value="saveCustomer" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomerTest.searchCustomer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mod25" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.java.br.com.grenno.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.java.br.com.grenno" />
-      <option name="MAIN_CLASS_NAME" value="test.java.br.com.grenno.CustomerTest" />
-      <option name="METHOD_NAME" value="searchCustomer" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="test.java.br.com.grenno.ProductTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProductTest" />
+        <item itemvalue="JUnit.CustomerTest (1)" />
+        <item itemvalue="JUnit.CustomerTest.testRegister" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.CustomerTest" />
-        <item itemvalue="JUnit.CustomerTest.deleteCustomer" />
-        <item itemvalue="JUnit.CustomerTest.saveCustomer" />
-        <item itemvalue="JUnit.CustomerTest.searchCustomer" />
       </list>
     </recent_temporary>
   </component>
@@ -179,5 +198,13 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/backend_specialist_java_ebac$CustomerTest__1_.ic" NAME="CustomerTest (1) Coverage Results" MODIFIED="1695115421181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.java.br.com.grenno.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/backend_specialist_java_ebac$CustomerTest_testRegister.ic" NAME="CustomerTest.testRegister Coverage Results" MODIFIED="1695115365699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.java.br.com.grenno.*</FILTER>
+    </SUITE>
   </component>
 </project>

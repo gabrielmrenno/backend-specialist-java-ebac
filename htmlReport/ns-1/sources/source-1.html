@@ -1,0 +1,166 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
+  <title>Coverage Report > CustomerTest</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">test.java.br.com.grenno</a>
+</div>
+
+<h1>Coverage Summary for Class: CustomerTest (test.java.br.com.grenno)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">CustomerTest</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (3/3)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (30/30)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package test.java.br.com.grenno;
+&nbsp;
+&nbsp;import main.java.br.com.grenno.dao.generic.jdbc.dao.CustomerDAO;
+&nbsp;import main.java.br.com.grenno.dao.generic.jdbc.dao.interfaces.IGenericDAO;
+&nbsp;import main.java.br.com.grenno.domain.Customer;
+&nbsp;import org.junit.jupiter.api.Test;
+&nbsp;
+&nbsp;import static org.junit.jupiter.api.Assertions.*;
+&nbsp;
+<b class="fc">&nbsp;public class CustomerTest {</b>
+&nbsp;    private ICustomerDAO customerDAO;
+&nbsp;
+&nbsp;    @Test
+&nbsp;    public void testRegister() throws Exception {
+<b class="fc">&nbsp;        customerDAO = new CustomerDAO();</b>
+&nbsp;
+<b class="fc">&nbsp;        Customer customer = new Customer(&quot;10&quot;, &quot;Customer 10&quot;);</b>
+<b class="fc">&nbsp;        Integer result = customerDAO.register(customer);</b>
+<b class="fc">&nbsp;        assertEquals(1, (int) result);</b>
+&nbsp;
+<b class="fc">&nbsp;        Customer customerInDb = customerDAO.getByCode(&quot;10&quot;);</b>
+<b class="fc">&nbsp;        assertNotNull(customerInDb);</b>
+<b class="fc">&nbsp;        assertEquals(customer.getName(), customerInDb.getName());</b>
+<b class="fc">&nbsp;        assertEquals(customer.getCode(), customerInDb.getCode());</b>
+&nbsp;
+<b class="fc">&nbsp;        Integer countOnDelete = customerDAO.delete(customerInDb);</b>
+<b class="fc">&nbsp;        assertEquals(1, (int) countOnDelete);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    @Test
+&nbsp;    public void testUpdate() throws Exception {
+<b class="fc">&nbsp;        customerDAO = new CustomerDAO();</b>
+&nbsp;
+&nbsp;        // register customer
+<b class="fc">&nbsp;        Customer customer = new Customer(&quot;10&quot;, &quot;Customer 10&quot;);</b>
+<b class="fc">&nbsp;        Integer result = customerDAO.register(customer);</b>
+<b class="fc">&nbsp;        assertEquals(1, (int) result);</b>
+&nbsp;
+&nbsp;        // get customer by code from db
+<b class="fc">&nbsp;        Customer customerInDb = customerDAO.getByCode(&quot;10&quot;);</b>
+<b class="fc">&nbsp;        assertNotNull(customerInDb);</b>
+<b class="fc">&nbsp;        assertNotNull(customerInDb.getId());</b>
+<b class="fc">&nbsp;        assertEquals(customer.getName(), customerInDb.getName());</b>
+<b class="fc">&nbsp;        assertEquals(customer.getCode(), customerInDb.getCode());</b>
+&nbsp;
+&nbsp;        // update customer
+<b class="fc">&nbsp;        customerInDb.setName(&quot;Customer 10 Updated&quot;);</b>
+<b class="fc">&nbsp;        customerInDb.setCode(&quot;11&quot;);</b>
+<b class="fc">&nbsp;        Integer countOnUpdate = customerDAO.update(customerInDb);</b>
+<b class="fc">&nbsp;        assertEquals(1, (int) countOnUpdate);</b>
+&nbsp;
+&nbsp;        // get customer by code from db and assert if it was updated
+<b class="fc">&nbsp;        Customer customerUpdated = customerDAO.getByCode(&quot;11&quot;);</b>
+<b class="fc">&nbsp;        assertNotNull(customerUpdated);</b>
+<b class="fc">&nbsp;        assertEquals(customerInDb.getName(), customerUpdated.getName());</b>
+<b class="fc">&nbsp;        assertEquals(customerInDb.getCode(), customerUpdated.getCode());</b>
+&nbsp;
+&nbsp;        // delete customer
+<b class="fc">&nbsp;        Integer countOnDelete = customerDAO.delete(customerUpdated);</b>
+<b class="fc">&nbsp;        assertEquals(1, (int) countOnDelete);</b>
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-09-19 06:24</div>
+</div>
+</body>
+</html>
